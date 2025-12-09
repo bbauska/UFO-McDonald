@@ -1,5 +1,4 @@
-
-<h1 id="table-of-contents">ufo-mcdonald</h1>
+<h1 id="table-of-contents">UFO-McDonald</h1>
 
 <ol>
   <li id="#ch01">INTRODUCTION</li>
