@@ -61,7 +61,7 @@
 <body>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
   <button onclick="overcomeFunction()" id="myBtn" title="Go to Overcome">Btm</button>
-<!--  <button onclick="tableOfContentsFunction()" id="myBtn2" title="Go to Top">TOC</button>  -->
+<!--  <button onclick="tableOfContentsFunction()" id="myBtn2" title="Go to Top">Top</button>  -->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ script function: scrollFunction() ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
   <script>
@@ -76,13 +76,10 @@
         mybutton.style.display = "none";
       }
     }
-  <!-- when the user clicks on the button, scroll to the table of contents near top of document. -->
-  function overcomeFunction() {
-    document.getElementById('how-to-overcome').scrollIntoView();
-  }
-<!--  function tableOfContentsFunction() {  -->
-<!--    document.getElementById('table-of-contents').scrollIntoView();  -->
-<!--  }  -->
+    <!-- when the user clicks on the button, scroll to the table of contents near top of document. -->
+    function overcomeFunction() {
+      document.getElementById('table-of-contents').scrollIntoView();
+    }
   </script>
   <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
   <div id="wrapper">
